@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AniColle</string>
+    <string name="title_activity_ani_colle_home">AniColleHomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string-array name="lists">
+        <item>Watching</item>
+        <item>PTW</item>
+        <item>Favorite</item>
+        <item>Dropped</item>
+        <item>Completed</item>
+
+    </string-array>
+</resources>

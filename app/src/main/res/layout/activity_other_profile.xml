@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:background="@drawable/anicolleback"
+tools:showIn="@layout/fragment_lists"
+android:fitsSystemWindows="true"
+tools:context=".OtherProfileActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+
+    <Button
+
+        android:id="@+id/watching"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="Watching"
+        android:textSize="8dp"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/ptw"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="PTW"
+        android:textSize="8dp"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/favorite"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="Favorite"
+        android:textSize="8dp"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/completed"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:text="Completed"
+        android:textSize="8dp"
+        android:background="@android:color/transparent"/>
+    <Button
+        android:id="@+id/dropped"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="Dropped"
+        android:textSize="8dp"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:translationX="0dp"
+        android:translationY="10dp"></androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:showIn="@layout/fragment_animes"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/anicolleback"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+
+        <Button
+
+            android:id="@+id/Fall"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:text="FALL"
+            android:background="@android:color/transparent"
+
+            />
+
+        <Button
+            android:id="@+id/Summer"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:text="SUMMER"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/Spring"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:text="SPRING"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/Winter"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:text="WINTER"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:translationX="0dp"
+            android:translationY="10dp"></androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+</LinearLayout>

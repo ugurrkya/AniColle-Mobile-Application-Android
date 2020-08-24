@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/anicolleback"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".LoginActivity"
+    tools:showIn="@layout/activity_login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+
+        >
+
+
+        <ImageView
+
+            android:layout_width="250dp"
+            android:layout_height="120dp"
+            android:background="@drawable/transparent"
+            android:layout_marginLeft="50dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+
+        <EditText
+            android:id="@+id/emailLoginEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/border_edittext"
+            android:hint="E-mail"
+            android:padding="15dp"
+            tools:layout_width="match_parent"
+             />
+
+        <EditText
+            android:id="@+id/passwordLoginEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/border_edittext"
+            android:hint="Password"
+            android:padding="15dp"
+            android:inputType="textPassword"
+            tools:layout_width="match_parent"
+             />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center"
+            android:padding="3dp"
+
+            >
+
+            <Button
+                android:id="@+id/loginButtonMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="LOGIN"
+                android:textColor="@color/butoncolor"
+                android:textSize="24sp"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            >
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="50dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't you have an account? "
+                android:textColor="#393a3b"
+                android:textSize="20sp"
+
+               />
+        </LinearLayout>
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center"
+            android:padding="3dp"
+
+
+
+            >
+
+            <Button
+
+                android:id="@+id/createAccountButtonMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CREATE AN ACCOUNT"
+                android:textColor="@color/butoncolor"
+                android:textSize="24sp"
+
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

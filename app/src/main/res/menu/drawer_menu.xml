@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_animes"
+            android:icon="@drawable/ic_movie_black_24dp"
+            android:title="Animes"></item>
+
+        <item
+            android:id="@+id/nav_lists"
+            android:icon="@drawable/ic_format_list_numbered_black_24dp"
+            android:title="My Lists"></item>
+
+        <item
+            android:id="@+id/nav_broadcast"
+            android:icon="@drawable/ic_star"
+            android:title="Calendar"></item>
+        <item
+            android:id="@+id/nav_users"
+            android:icon="@drawable/ic_allusers"
+            android:title="Users"></item>
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_allusers"
+            android:title="News"></item>
+    </group>
+    <item
+        android:id="@+id/nav_editprofile"
+        android:icon="@drawable/ic_profile"
+        android:title="Edit Profile"></item>
+    <item
+        android:id="@+id/nav_signout"
+        android:icon="@drawable/ic_signout"
+        android:title="Sign Out"></item>
+
+</menu>

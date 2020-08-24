@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "21177863536",
+    "firebase_url": "https://anicolle.firebaseio.com",
+    "project_id": "anicolle",
+    "storage_bucket": "anicolle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21177863536:android:5944103b567d3250",
+        "android_client_info": {
+          "package_name": "com.anicolle.ju.anicolle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21177863536-oufvc27npaisbl99oi5fm3ipiugl83la.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anicolle.ju.anicolle",
+            "certificate_hash": "d6613832b7a4cdf4e2cdc91bca424828e7eb7503"
+          }
+        },
+        {
+          "client_id": "21177863536-0ohe5ttg1oej9vk5d85umfspj7aievrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQvwdiane_zZ4KAHOZc-745cikVWGQvbk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21177863536-edd4pahrnv8p0h31pb0t8pj7ruhkslk6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

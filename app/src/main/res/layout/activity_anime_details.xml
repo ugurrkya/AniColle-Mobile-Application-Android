@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true"
+    tools:context=".AnimeDetailsActivity"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/details"
+        >
+
+        <TextView
+
+            android:id="@+id/dtanimeName"
+            android:text="anime"
+            android:textColor="#b25046"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:gravity="left"
+        android:paddingTop="20dp">
+
+
+        <ImageView
+            android:id="@+id/dtanimeImage"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:layout_y="-40dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/loadingimage"
+            android:scaleType="centerCrop" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginRight="-40dp"
+            android:numStars="5"
+            android:rating="5"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:stepSize="1.0"
+            android:transformPivotX="0dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ratebtn"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal|end"
+        android:text="Rate"
+        android:translationX="-8dp"
+        android:translationY="12dp" />
+
+    <Spinner
+        android:id="@+id/dtlistname"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="34dp"
+        android:layout_marginBottom="180dp"
+        android:spinnerMode="dropdown">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/addbtn"
+        android:text="Add to List"
+        android:layout_width="80dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center|end"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="180dp"
+        android:textSize="8dp"
+        />
+
+    <TextView
+        android:id="@+id/sometexts"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="80dp"
+        android:text="Your watched ep.:"
+        android:layout_marginBottom="210dp"
+        ></TextView>
+    <EditText
+        android:id="@+id/edittextepnum"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="210dp"
+        android:hint="Ep"
+        android:padding="5dp"></EditText>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></LinearLayout>
+
+    <TextView
+        android:text="Producer:"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop= "150dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:text="Producer:"
+        android:id="@+id/dtproducer"
+        android:hint="producer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop= "150dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="80dp"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:text="Genre:"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop= "170.5dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:text="Genre:"
+        android:id="@+id/dtgenre"
+        android:hint="genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop= "170.5dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="55dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:text="Season:"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop= "190.5dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:text="Season:"
+        android:id="@+id/dtseason"
+        android:hint="season"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop= "190.5dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="64dp"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:text="Duration:"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop= "210.5dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+    <TextView android:text="Duration:"
+        android:id="@+id/dtduration"
+        android:hint="duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop= "210.5dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="70dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:text="Planned Episode:"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop= "230.5dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:text="Planned Episode:"
+        android:id="@+id/dtplannedep"
+        android:hint="planned episode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop= "230.5dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="83dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:text="Current Episode:"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop= "250.5dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:text="Current Episode:"
+        android:id="@+id/dtcurrentep"
+        android:hint="current episode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop= "250.5dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="84dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:text="Country:"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop= "270.5dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:text="Country:"
+        android:id="@+id/dtcountry"
+        android:hint="country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop= "270.5dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="66dp"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:text="Source:"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop= "290.5dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:text="Source:"
+        android:id="@+id/dtsource"
+        android:hint="source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop= "290.5dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="62dp"
+        android:textSize="18dp"
+        />
+
+
+    <TextView
+        android:text="Studio:"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop= "310.5dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:text="Studio:"
+        android:id="@+id/dtstudio"
+        android:hint="studio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop= "310.5dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="57dp"
+        android:textSize="18dp"
+        />
+
+
+    <TextView
+        android:text="Type:"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop= "330.5dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:text="type"
+        android:id="@+id/dttype"
+        android:hint="type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop= "330.5dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="42dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:text="Broadcast:"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop= "350.5dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:text="Broadcast:"
+        android:id="@+id/dtbro"
+        android:hint="broadcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop= "350.5dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="83dp"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:text="Relation:"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop= "370.5dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:text="relation"
+        android:id="@+id/dtrelation"
+        android:hint="relation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop= "370.5dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="72dp"
+        android:textSize="18dp"
+        />
+
+
+
+
+
+</androidx.cardview.widget.CardView>
