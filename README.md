@@ -22,6 +22,7 @@ The system will be created such a mobile application. To create it, Android prog
 - Register/Login
 - View all animes categorized by seasons
 - View anime details
+- View news
 - Search animes and users
 - Add animes to personalized lists
 - Rate animes
